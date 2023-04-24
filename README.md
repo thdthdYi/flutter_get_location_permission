@@ -1,16 +1,11 @@
 # flutter_get_permission
 
-A new Flutter project.
+Flutter 모바일 어플리케이션에서 권한 설정 및 위치 불러오기
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+permission_handler 라이브러리를 활용하여 디바이스 권한 설정
 
-A few resources to get you started if this is your first Flutter project:
+geolocator 라이브러리를 통해 현재 내 위치인 위도, 경도 불러오기
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+getx controller를 활용하여 상태 및 데이터 관리
